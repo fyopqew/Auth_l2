@@ -17,7 +17,7 @@
 git clone https://github.com/username/repository.git
 cd repository
 
-### 2. **Node.js**
+### 2. Node.js
 Убедитесь, что у вас установлен Node.js. Затем выполните:
 npm install
 npm install -g json-server
