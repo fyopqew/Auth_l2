@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="user-container">
+        <h1>User Profile</h1>
+        <p><strong>Email:</strong> <span id="user-email"></span></p>
+        <p><strong>Registration Date:</strong> <span id="user-registration-date"></span></p>
+        <a href="signin.html" onclick="localStorage.removeItem('loggedInUser')">Logout</a>
+      </div>      
+  <script src="user.js"></script>
+</body>
+</html>
